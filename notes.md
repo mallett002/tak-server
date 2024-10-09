@@ -59,17 +59,12 @@ func main() {
 ```
 
 ### Wondering if this is better for the board (I think so)
+```json
 { 
     "a1": [],
-    "a2: [&Piece{Color: 'W'}, &Piece{Color: 'B'}, &Piece{Color: 'B', Capstone: true}] // stack with capstone on top
-    "a3: [],
+    "a2: [{"Color": "W"}, {"Color": "B"}, {"Color": "B", "Capstone": true}],
+    "a3": [],
     "b1": [],
-    ...
-    "c3": [&Piece{Color: 'W'}, &Piece{Color: 'B'}] // black piece on top
+    "c3": [{"Color": "W"}, {"Color": "B"}]
 }
-
-
-
-
-
-
+```
